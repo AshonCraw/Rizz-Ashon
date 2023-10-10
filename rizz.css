@@ -1,0 +1,43 @@
+
+.banner{
+  font-size: 50px;
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goofy{
+  display: inline-block;
+  width: 300px;
+}
+.images{
+  display: flex;
+  justify-content: center;
+}
+.button-row{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  background-color: white;
+  color: black;
+  font-family: Roboto;
+  font-size: 100%;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+button:hover{
+  opacity: 80%;
+  transition: .15s;
+}
+button:active{
+  background-color: red;
+  color: white;
+  transition: .25s;
+
+}
+.video{
+  border-radius: 12px;
+  border: 5px;
+}
